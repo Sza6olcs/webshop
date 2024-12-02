@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <div id="logo"><h1>Minta Webáruház</h1>
+            <p>Szép webdesig-nal</p>
+        </div>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <div class="dropdown">
+                <button class="dropbtn" id="shop">
+                    <label for="Shop">SHOP</label>
+                </button>
+                <div class="dropdown-content">
+                    <a href="accessories.html">Accessories</a>
+                    <a href="casual.html">Casual</a>
+                    <a href="clothing.html">Clothing</a>
+                    <a href="men.html">Men</a>
+                    <a href="Women.html">Women</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <label for="dropbtn">MY ACCOUNT</label>
+                </button>
+                <div class="dropdown-content">
+                    <a href="products.html">Products</a>
+                    <a href="casual.html">Casual</a>
+                    <a href="formal.html">Formal</a>
+                </div>
+
+            </div>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li>/</li>
+            <li><a href="products.html">Products</a></li>
+            <li>/</li>
+            <li><a href="casual.html">Casual</a></li>
+            
+        </ul>
+    </nav>
+       
+        
+
+    <main>
+        <div id="menu">
+            <p id="casual">Casual</p>            
+                <select name="sorting" id="sorting">
+                <option value="price">Default sorting</option>
+                <option value="name">Name</option>
+                <option value="date">Date</option>
+            </select>
+        </div>
+        <div class="cards">
+                <div class="container">
+                
+                    <div class="middle">
+                        <img src="images.jpg" alt="product" class="image" style="width: 100%; height: 100%;">
+                        <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Product 1</h3>
+                        <p>Price: 100$</p></div>
+                </div>
+                <div class="container">
+                    <div class="middle">
+                        <img src="images.jpg" alt="product" class="image" style="width: 100%; height: 100%;">
+                        <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Product 2</h3>
+                        <p>Price: 100$</p></div>
+                </div>
+                <div class="container">
+                    <div class="middle">
+                        <img src="images.jpg" alt="product" class="image" style="width: 100%; height: 100%;">
+                        <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Product 3</h3>
+                        <p>Price: 100$</p></div>        
+                </div>
+                <div class="container">
+                    <div class="middle">
+                        <img src="images.jpg" alt="product" class="image" style="width: 100%; height: 100%;">
+                        <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Product 4</h3>
+                        <p>Price: 100$</p></div>
+                </div>
+                <div class="container">
+                    <div class="middle">
+                        <img src="images.jpg" alt="product" class="image" style="width: 100%; height: 100%;">
+                        <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Product 5</h3>
+                        <p>Price: 100$</p></div>
+                </div>
+                <div class="container">
+                    <div class="middle">
+                        <img src="images.jpg" alt="product" class="image" style="width: 100%; height: 100%;">
+                        <button class="btn">Add to cart</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Product 6</h3>
+                        <p>Price: 100$</p></div>
+                </div>
+        
+    </main>
+    <aside>
+        <div id="filterbyprice"><P>Filter by price</P>
+        </div>
+            <div id="filter">
+                <input type="range"id="slider"  min="1€" max="100€" value="1">    
+                <div id="bt">
+                    <button class="filter-btn">FILTER</button>
+                    <label id="value" for="range"> value </label>
+                </div>
+           </div>
+        <div id="Product-categories"><p>Product categories</p>
+            <ul>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="casual.html">Casual</a></li>
+                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="men.html">Men</a>
+                <li><a href="women.html">Women</a></li>
+            </ul>
+        </div>
+        <div id="Top-Products" ><p>Top rated products</p>
+            <ul>
+                <div class="pr-img" ><li><a href="products.html">Product 1</a><br>
+                    <span>100$</span>
+                    
+                </div>
+                <div><li><a href="products.html">Product 2</a><br>
+                    <span>100$</span>   
+                </div>
+                <div><li><a href="products.html">Product 3</a><br>
+                    <span>100$</span>
+                </div>
+            </ul>
+        </div>
+
+    </aside>
+    <footer>
+        <div id="rolunk">
+            <h3>Rólunk</h3><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ipsum cumque reprehenderit optio provident maiores corporis voluptas aliquid facilis necessitatibus esse, praesentium at similique molestias quod iusto, voluptatum illo tempora?</p>
+        </div>
+        <div id="kapcsolat">
+            <h3>Contact us</h3><br>
+            <p>New york, 5th avenue</p>
+            <p>Phone: 123456789</p>
+            <p>Email:xxx@yyyyyyy.com</p>
+        </div>
+        <div id="social">
+            <h3>Social</h3>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.twitter.com">Twitter</a>
+    </footer>
+    <div id="top">
+        
+        <a href="#logo">
+            <img src="arrow.png" alt="">
+        </a>
+    </div>
+    
+</body>
+</html>
